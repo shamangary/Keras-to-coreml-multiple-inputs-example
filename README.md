@@ -17,8 +17,10 @@ python keras2coreml.py
 This command convert the keras model and weight file into coreml model.
 
 ### Multiple inputs Lambda layer bug?
-Before I write this github repositori, coremltools does not support multiple inputs Lambda layer.
+Before I write this github repository, coremltools does not support multiple inputs Lambda layer.
+
 https://github.com/apple/coremltools/issues/188
+
 In the above issue, they fixed it by adding some lines into their code. Plz check it out.
 
 ## Custom swift class
