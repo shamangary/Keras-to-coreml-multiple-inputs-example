@@ -3,9 +3,11 @@ keras to coreml example
 
 
 ## Introduction
-Considering Keras is a convenience framework for building deep learning structure, we usually use it to develop our own network. However, network with complex custom layer is not directly supported by the "coremltools", and cannot be convert to coreml model directly (iOS friendly framework).
+Considering Keras is a convenient framework for building deep learning structure, we usually use it to develop our own network. 
 
-+ In this project, I share the way to rewrite the multiple inputs custom lambda layer in Keras into swift function to support coreml model.
+However, network with complex custom layer is not directly supported by the "coremltools", and cannot be easily convert to coreml model (iOS friendly framework).
+
++ In this project, I share the way to rewrite the ***multiple inputs custom Lambda layer in Keras*** into swift function to support coreml model.
 + I use SSR-Net as our example. For more information, please go to https://github.com/shamangary/SSR-Net
 
 ## How to run?
