@@ -1,6 +1,4 @@
-# Keras-to-coreml-Using-ssrnet-as-a-multiple-inputs-custom-lambda-layer-example
-keras to coreml example
-
+# Keras-to-coreml-multiple-inputs-example
 
 ## Introduction
 Considering Keras is a convenient framework for building deep learning structure, we usually use it to develop our own network. 
